@@ -1,0 +1,135 @@
+body {
+  background: var(--background-color);
+  padding: 2.5em;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --primary-color: #011b4b;
+  --background-color: #eeeded;
+  --secondary-color: #24509c;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.alpaca {
+  position: relative;
+}
+
+.alpaca-backgrounds {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.alpaca-neck, .alpaca-eyes, .alpaca-hair {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.alpaca-mouth {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.alpaca-accessories, .alpaca-leg, .alpaca-nose {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.customizer {
+  padding-left: 3em;
+}
+
+.category {
+  flex-wrap: wrap;
+  padding: 10px 0;
+  display: flex;
+}
+
+.category-item {
+  color: var(--secondary-color);
+  text-align: center;
+  min-width: 25%;
+  text-transform: capitalize;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 10px 10px 10px 0;
+  padding: 20px 30px;
+  font-size: 1.3rem;
+}
+
+.category-item:hover {
+  cursor: pointer;
+}
+
+.category-item.xl {
+  width: 40%;
+}
+
+.category-item.active {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.menu {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.menu-button {
+  width: 12em;
+  background-color: #fff;
+  border: none;
+  margin-top: 10px;
+  margin-right: 1em;
+  padding: 20px 10px;
+  font-weight: bold;
+}
+
+.menu-button:hover {
+  cursor: pointer;
+  background-color: #fbf9f9da;
+}
+
+.social-link {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.social-link_img {
+  height: 32px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.jsbetween {
+  justify-content: space-between;
+}
+
+.flex.jcenter {
+  justify-content: center;
+}
+
+.flex.acenter {
+  align-items: center;
+}
+
+/*# sourceMappingURL=index.47ca9330.css.map */

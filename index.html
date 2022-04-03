@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpaca Image Generator</title>
+    <link href="./css/normalize.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./img/favicon.png" />
+    <script type="text/javascript" src="./js/html2canvas.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="flex acenter jsbetween">
+        <h1>Alpaca Generator</h1>
+        <div class="social-links">
+          <a
+            class="social-link"
+            target="_blank"
+            href="https://github.com/KevDev99/alpaca-image-generator"
+          >
+            <img class="social-link_img" src="./img/social-links/github.svg" />
+          </a>
+          <a  target="_blank" class="social-link" href="https://twitter.com/kevin_taufer">
+            <img
+              class="social-link_img"
+              src="./img/social-links/twitter-round.svg"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="flex">
+        <div>
+          <div id="alpaca" class="alpaca">
+            <img
+              id="alpaca-backgrounds"
+              class="alpaca-backgrounds"
+              src="./img/alpaca/backgrounds/darkblue70.png"
+            />
+            <img
+              id="alpaca-ears"
+              class="alpaca-ears"
+              src="./img/alpaca/ears/default.png"
+            />
+            <img
+              id="alpaca-accessories"
+              class="alpaca-accessories"
+              src="./img/alpaca/accessories/headphone.png"
+            />
+            <img
+              id="alpaca-hair"
+              class="alpaca-hair"
+              src="./img/alpaca/hair/default.png"
+            />
+            <img
+              id="alpaca-neck"
+              class="alpaca-neck"
+              src="./img/alpaca/neck/thick.png"
+            />
+            <img
+              id="alpaca-eyes"
+              class="alpaca-eyes"
+              src="./img/alpaca/eyes/default.png"
+            />
+            <img
+              id="alpaca-mouth"
+              class="alpaca-mouth"
+              src="./img/alpaca/mouth/default.png"
+            />
+            <img
+              id="alpaca-nose"
+              class="alpaca-nose"
+              src="./img/alpaca/nose.png"
+            />
+            <img
+              id="alpaca-leg"
+              class="alpaca-leg"
+              src="./img/alpaca/leg/default.png"
+            />
+          </div>
+          <div class="menu">
+            <button id="randomAlpacaBtn" class="menu-button">Random 🎰</button>
+            <button id="downloadAlpacaBtn" class="menu-button">
+              Download ⬇️
+            </button>
+          </div>
+        </div>
+        <div class="customizer">
+          <div class="customizer-group">
+            <h2>Accessorize the Alpaca's</h2>
+            <ul id="categorys" class="category"></ul>
+          </div>
+          <div class="customizer-group">
+            <h2>Style</h2>
+            <ul id="categorysItems" class="category"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script type="text/javascript" src="./js/main.js" defer></script>
+</html>

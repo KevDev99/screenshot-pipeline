@@ -1,0 +1,20 @@
+{
+  "name": "alpaca-image-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html --port 9999",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "parcel": "^2.4.1"
+  },
+  "dependencies": {
+    "puppeteer": "^13.5.2"
+  }
+}
